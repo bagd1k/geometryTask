@@ -7,6 +7,7 @@ public class Program {
     public static final Circle C1 = new Circle(-2, 0, 4);
 
     public static SimpleColor getColor(double x, double y) {
+        // Через месяц я сюда не зайду!
         if (P1.isPointAboveOfParabola(x, y) && !C1.isInsideOfCircle(x, y) && P2.isPointAboveOfParabola(x, y)) {
             return SimpleColor.ORANGE;
         }
