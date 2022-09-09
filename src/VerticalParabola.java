@@ -14,7 +14,7 @@ public class VerticalParabola {
      * от параболы
      */
     public boolean isPointAboveOfParabola(double x, double y) {
-        return y > a * Math.pow((x - x0), 2) + y0;
+        return y >= a * Math.pow((x - x0), 2) + y0;
     }
 
 }

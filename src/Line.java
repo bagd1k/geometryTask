@@ -9,6 +9,6 @@ public class Line {
     }
 
     public boolean isPointAboveLine(double x, double y) {
-        return y > a * (x - x0) + y0;
+        return y > 4*x-2;
     }
 }
